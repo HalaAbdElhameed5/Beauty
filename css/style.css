@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*Header style*/
+header .owl-carousel img{
+    width: 100%;
+    height: 100%;
+}
+nav .collapse ul li{
+    margin-left: 15px;
+}
+
+nav .collapse ul li a{
+    border: 1px solid transparent;
+}
+nav .collapse ul li a:hover{
+    border: 1px solid #ccb2bf;
+}
+
+
+
+#carouselExampleCaptions h5 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: brown;
+}
+
+
+/* services */
+
+.Services{
+    background-image: url(../images/treatments.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Services .col-lg-6 a i{
+   background-color: #ccb2bf;
+   color: white; 
+   border-radius: 50%;
+}
+.Services .col-lg-6 a i:hover{
+   background-color: white;
+   color: #ccb2bf; 
+   border-radius: 50%;
+}
+
+
+
+
+
+/* card style */
+ 
+.card {
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+    }
+    
+    .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    }
+    
+    .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+    }
+    
+    .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+    color: brown;
+    text-transform: uppercase;
+   
+
+    }
+    
+    .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+        -5px -5px 30px 15px rgba(0,0,0,0.22);
+    }
+    
+    
+    @media all and (max-width: 500px) {
+    .card-list {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
+    }
+    
+
+
+
+    
+/* Prices style */
+.Prices .btn, .Location .btn:hover,.Location .form-control{
+    background-color: white !important;
+    color: #ccb2bf;
+    border: 1px solid #ccb2bf;
+}
+.Prices .btn:hover, .Location .btn{
+    background-color: #ccb2bf !important;
+    color: white;
+}
+/* offers style */
+.offers{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+
+
+
+
+
+/* Location style */
+.Location img{
+    width: 100%;
+    height: 400px;
+}
+.Location .input-group{
+    width: 90%;
+}
+
+
+
+/* footer */
+
+/* footer */
+.footer-nav , .social-nav {
+    list-style:none ;
+    display: flex;
+  }
+  
+  .social-nav {
+    float: right;
+  }
+  
+  
+  .footer-nav li , .social-nav li {
+  margin-right: 20px;
+  
+  }
+  
+  .footer-nav li a , .social-nav li a {
+  color: #ccc;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  }
+  
+  .footer-nav li a:hover , .social-nav li a:hover {
+    color: #ccb2bf;
+  }
+  
+  footer {
+    background-color: black;
+  }
+  
+  footer p {
+  text-align: center;
+  color: #ccc;
+  font-size: small;
+  padding-bottom: 50px ;
+  }
+  
